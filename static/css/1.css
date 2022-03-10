@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    font-family: 微软雅黑, serif;
+}
+ul{
+    list-style-type: none;
+}
+a:link{
+	text-decoration: none;
+	color: #09f;/*未访问*/
+}
+a:visited{
+	text-decoration: none;
+	color: #930;/*已访问*/
+}
+a:hover{
+	text-decoration: underline;
+	color: #03c;/*鼠标悬停*/
+}
+a:active{
+	text-decoration: none;
+	color: #03c;/*按下鼠标*/
+}
+li,label,strong{
+    font-size: 25px;
+}
